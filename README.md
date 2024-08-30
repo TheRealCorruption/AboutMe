@@ -9,7 +9,7 @@
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
-            background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fanime-background&psig=AOvVaw33gxneLjH3R2bt3nyt3tyx&ust=1725125283870000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLCJoc-enYgDFQAAAAAdAAAAABAE');
+            background-image: url('https://cdn.discordapp.com/attachments/1196281703421968487/1279132004805251295/JSJFJSDJSJFJS.png?ex=66d35403&is=66d20283&hm=6842cd57a5bedfb73522673459c0bec2335dd053690b38521c557c597378cc78&');
             background-size: cover;
             background-position: center;
             color: white;
