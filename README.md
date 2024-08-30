@@ -33,7 +33,7 @@
             height: 150px;
             border-radius: 50%;
             border: 3px solid white;
-            margin-bottom: 20px;
+            margin: 0 auto 20px auto; /* Center the image and add space below it */
             background-image: url('https://media.discordapp.net/attachments/1196281703421968487/1278920908450299934/illustration-of-boy-profile-anime-style-black-silhouette-isolated-on-white-background-free-vector.jpg?ex=66d33829&is=66d1e6a9&hm=c81b7bf4e9e0f81031d1f72d5213b33ce37816c58b981b8e5e051f281f1d6af3&=&format=webp&width=421&height=421');
             background-size: cover;
             background-position: center;
@@ -59,7 +59,7 @@
         <div class="profile-pic"></div>
         <div class="name">Karma Tsukino</div>
         <div class="bio">
-            <p>The Founder of A.O.O. and a Developer, gamer, content creator, and music producer</p>
+            <p>The Founder of A.O.O. and a Developer, gamer, content creator, and music producer.</p>
             <p>Feel free to connect with me through my social media links below!</p>
         </div>
     </div>
