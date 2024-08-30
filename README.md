@@ -57,17 +57,18 @@
         .button-container {
             display: flex;
             flex-direction: column;
-            gap: 10px;
+            gap: 8px;
         }
 
         .button {
             background-color: hotpink;
             color: white;
-            padding: 10px;
+            padding: 8px;
             border: none;
             border-radius: 5px;
             text-decoration: none;
             font-weight: bold;
+            font-size: 14px;
             transition: background-color 0.3s;
         }
 
