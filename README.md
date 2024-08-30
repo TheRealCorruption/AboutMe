@@ -51,7 +51,30 @@
         .bio {
             font-size: 16px;
             line-height: 1.5;
+            margin-bottom: 20px;
         }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .button {
+            background-color: hotpink;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: purple;
+        }
+
     </style>
 </head>
 <body>
@@ -61,6 +84,12 @@
         <div class="bio">
             <p>The Founder of A.O.O. and a Developer, gamer, content creator, and music producer.</p>
             <p>Feel free to connect with me through my social media links below!</p>
+        </div>
+        <div class="button-container">
+            <a href="https://therealcorruption.github.io/A.O.O.-WEBPAGE/" class="button">A.O.O. Main Page</a>
+            <a href="https://scratch.mit.edu/users/coolcats153122/" class="button">Scratch</a>
+            <a href="https://www.roblox.com/users/4490451884/profile" class="button">Roblox</a>
+            <a href="https://www.youtube.com/" class="button">YouTube</a>
         </div>
     </div>
 </body>
