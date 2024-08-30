@@ -57,7 +57,7 @@
 <body>
     <div class="container">
         <div class="profile-pic"></div>
-        <div class="name">Your Name</div>
+        <div class="name">Karma Tsukino</div>
         <div class="bio">
             <p>The Founder of A.O.O. and a Developer, gamer, content creator, and music producer</p>
             <p>Feel free to connect with me through my social media links below!</p>
