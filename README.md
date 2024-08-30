@@ -33,7 +33,7 @@
             height: 150px;
             border-radius: 50%;
             border: 3px solid white;
-            margin: 0 auto 20px auto; /* Center the image and add space below it */
+            margin: 0 auto 20px auto;
             background-image: url('https://media.discordapp.net/attachments/1196281703421968487/1278920908450299934/illustration-of-boy-profile-anime-style-black-silhouette-isolated-on-white-background-free-vector.jpg?ex=66d33829&is=66d1e6a9&hm=c81b7bf4e9e0f81031d1f72d5213b33ce37816c58b981b8e5e051f281f1d6af3&=&format=webp&width=421&height=421');
             background-size: cover;
             background-position: center;
@@ -57,18 +57,18 @@
         .button-container {
             display: flex;
             flex-direction: column;
-            gap: 8px;
+            gap: 6px;
         }
 
         .button {
             background-color: hotpink;
             color: white;
-            padding: 8px;
+            padding: 6px;
             border: none;
             border-radius: 5px;
             text-decoration: none;
             font-weight: bold;
-            font-size: 14px;
+            font-size: 12px;
             transition: background-color 0.3s;
         }
 
