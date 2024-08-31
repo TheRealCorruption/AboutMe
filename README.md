@@ -127,7 +127,7 @@
         </div>
         <div class="bottom-right">
             <div class="button-container">
-                <a href="https://discord.gg/e9wrtDYPqc" class="button">HangOut-Haven 1</a>
+                <a href="https://discord.gg/e9wrtDYPqc" class="button">HangOut-Haven</a>
                 <a href="#" class="button">Discord Server 2</a>
                 <!-- Add more buttons as needed -->
             </div>
