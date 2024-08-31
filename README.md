@@ -17,8 +17,9 @@
             align-items: center;
             height: 100vh;
             text-align: center;
+            transition: all 0.5s ease;
         }
-        
+
         .container {
             background: rgba(0, 0, 0, 0.7);
             padding: 20px;
@@ -42,6 +43,7 @@
             background-image: url('https://media.discordapp.net/attachments/1196281703421968487/1278920908450299934/illustration-of-boy-profile-anime-style-black-silhouette-isolated-on-white-background-free-vector.jpg?ex=66d33829&is=66d1e6a9&hm=c81b7bf4e9e0f81031d1f72d5213b33ce37816c58b981b8e5e051f281f1d6af3&=&format=webp&width=421&height=421');
             background-size: cover;
             background-position: center;
+            cursor: pointer;
             grid-area: center;
         }
 
@@ -101,6 +103,24 @@
             grid-area: bottom-right;
         }
 
+        .secret-container {
+            display: none;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+            color: white;
+        }
+
+        .secret-box {
+            background: black;
+            border: 2px solid white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            color: white;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -119,7 +139,7 @@
             </div>
         </div>
         <div class="center">
-            <div class="profile-pic"></div>
+            <div class="profile-pic" onclick="revealSecret()"></div>
             <div class="name">Karma Tsukino</div>
         </div>
         <div class="bottom-left">
@@ -127,11 +147,22 @@
         </div>
         <div class="bottom-right">
             <div class="button-container">
-                <a href="https://discord.gg/e9wrtDYPqc" class="button">HangOut-Haven</a>
+                <a href="#" class="button">Discord Server 1</a>
                 <a href="#" class="button">Discord Server 2</a>
                 <!-- Add more buttons as needed -->
             </div>
         </div>
     </div>
+    <div class="secret-container" id="secret-container">
+        <a href="#" class="secret-box">Tape-1</a>
+    </div>
+
+    <script>
+        function revealSecret() {
+            document.body.style.backgroundColor = 'black';
+            document.querySelector('.container').style.display = 'none';
+            document.getElementById('secret-container').style.display = 'flex';
+        }
+    </script>
 </body>
 </html>
