@@ -160,6 +160,7 @@
     <script>
         function revealSecret() {
             document.body.style.backgroundColor = 'black';
+            document.body.style.backgroundImage = 'none';  /* Remove the background image */
             document.querySelector('.container').style.display = 'none';
             document.getElementById('secret-container').style.display = 'flex';
         }
