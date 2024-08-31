@@ -1,9 +1,8 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>Karma Tsukino</title>
     <style>
         body {
             margin: 0;
@@ -24,19 +23,26 @@
             background: rgba(0, 0, 0, 0.7);
             padding: 20px;
             border-radius: 10px;
-            width: 300px;
+            width: 450px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            display: grid;
+            grid-template-areas:
+                "top-left top-right"
+                "center center"
+                "bottom-left bottom-right";
+            grid-gap: 10px;
         }
 
         .profile-pic {
-            width: 150px;
-            height: 150px;
+            width: 100px;
+            height: 100px;
             border-radius: 50%;
             border: 3px solid white;
-            margin: 0 auto 20px auto;
+            margin: 0 auto;
             background-image: url('https://media.discordapp.net/attachments/1196281703421968487/1278920908450299934/illustration-of-boy-profile-anime-style-black-silhouette-isolated-on-white-background-free-vector.jpg?ex=66d33829&is=66d1e6a9&hm=c81b7bf4e9e0f81031d1f72d5213b33ce37816c58b981b8e5e051f281f1d6af3&=&format=webp&width=421&height=421');
             background-size: cover;
             background-position: center;
+            grid-area: center;
         }
 
         .name {
@@ -46,12 +52,14 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             margin-bottom: 15px;
+            grid-area: center;
         }
 
         .bio {
             font-size: 16px;
             line-height: 1.5;
-            margin-bottom: 20px;
+            grid-area: top-left;
+            text-align: left;
         }
 
         .button-container {
@@ -76,21 +84,53 @@
             background-color: purple;
         }
 
+        .top-left {
+            grid-area: top-left;
+            text-align: left;
+        }
+
+        .top-right {
+            grid-area: top-right;
+        }
+
+        .bottom-left {
+            grid-area: bottom-left;
+        }
+
+        .bottom-right {
+            grid-area: bottom-right;
+        }
+
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="profile-pic"></div>
-        <div class="name">Karma Tsukino</div>
-        <div class="bio">
-            <p>The Founder of A.O.O. and a Developer, gamer, content creator, and music producer.</p>
-            <p>Feel free to connect with me through my social media links below!</p>
+        <div class="top-left">
+            <div class="bio">
+                <p>Hello! I'm Karma Tsukino, the Founder of A.O.O. I am a Developer, gamer, content creator, and music producer. I love exploring new things and sharing my journey with the world. Stay tuned for more!</p>
+            </div>
         </div>
-        <div class="button-container">
-            <a href="https://therealcorruption.github.io/A.O.O.-WEBPAGE/" class="button">A.O.O. Main Page</a>
-            <a href="https://scratch.mit.edu/users/coolcats153122/" class="button">Scratch</a>
-            <a href="https://www.roblox.com/users/4490451884/profile" class="button">Roblox</a>
-            <a href="https://www.youtube.com/" class="button">YouTube</a>
+        <div class="top-right">
+            <div class="button-container">
+                <a href="https://therealcorruption.github.io/A.O.O.-WEBPAGE/" class="button">A.O.O. Main Page</a>
+                <a href="https://scratch.mit.edu/users/coolcats153122/" class="button">Scratch</a>
+                <a href="https://www.roblox.com/users/4490451884/profile" class="button">Roblox</a>
+                <a href="https://www.youtube.com/" class="button">YouTube</a>
+            </div>
+        </div>
+        <div class="center">
+            <div class="profile-pic"></div>
+            <div class="name">Karma Tsukino</div>
+        </div>
+        <div class="bottom-left">
+            <!-- Extra space for future content -->
+        </div>
+        <div class="bottom-right">
+            <div class="button-container">
+                <a href="#" class="button">Discord Server 1</a>
+                <a href="#" class="button">Discord Server 2</a>
+                <!-- Add more buttons as needed -->
+            </div>
         </div>
     </div>
 </body>
